@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1"></head>
+<style>
+body {
+	background-image: url("/static/avatar_css/9WYxT.png");
+
+
+}
+
+.title{
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 50px;
+	border-radius: 15px 50px 30px;
+    background-color: DarkSlateGrey ;
+    color: AliceBlue;
+    padding: 20px;
+    width: auto;
+	height: auto;
+	margin-bottom: 100px;
+}
+
+
+.avatar {
+		border-radius: 15px 50px 30px;
+    background-color: DarkSlateGrey ;
+    color: AliceBlue;
+    padding: 20px;
+    width: 200px;
+	height: 150px;
+  vertical-align: middle;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.choose_file{
+	margin-top: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 20px;
+    background-color: DarkSlateGrey ;
+    color: AliceBlue;
+    padding: 5px;
+    width: 200px;
+	height: auto;
+	margin-bottom: 10px;
+}
+
+
+.submit{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-top: 100px;
+
+}
+
+
+.button{
+	color: DarkSlateGrey;
+	font-size: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 20px;
+    background-color: LightGreen;
+    padding: 10px;
+    width: 50px;
+	height: auto;
+}
+
+</style>
+<body>
+
+<h2 class="title">Avatar Image</h2>
+<div class="page-content">
+<img src="/static/avatar_css/images.jpg" alt="Avatar" class="avatar">
+</div>
+<form action="http://127.0.0.1:5000/avatar_creation" method="post" enctype="multipart/form-data">
+	<div class="choose_file">
+		<input type="file" name="pic" id="input_image"></div>
+	<div class="submit">
+        <button name="button" class="button" id="button">Save as profile picture</button></div></form>
+
+
+
+<script>
+    function get_image(){
+        var path = document.getElementsByClassName("choose_file")[0].getElementsByTagName("input")[0].value
+
+    }
+</script>
+
+</body>
+</html>

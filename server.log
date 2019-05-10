@@ -1,0 +1,2519 @@
+Exception on / [POST]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\yonat\PycharmProjects\chat_project\app.py", line 52, in login
+    if account.check_data(login_username, login_password):
+  File "C:\Users\yonat\PycharmProjects\chat_project\app.py", line 371, in check_data
+    db = DB_account_handler(db_path)
+  File "C:\Users\yonat\PycharmProjects\chat_project\templates\account_management.py", line 8, in __init__
+    self.connection = sqlite3.connect(self.path)
+sqlite3.OperationalError: unable to open database file
+C:\Users\yonat\PycharmProjects\chat_project/static/profile_picture
+saving C:\Users\yonat\PycharmProjects\chat_project/static/profile_picture\
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\yonat\PycharmProjects\chat_project\app.py", line 190, in search_msgs
+    account_ID = accounting_operations().get_account_ID()
+  File "C:\Users\yonat\PycharmProjects\chat_project\app.py", line 382, in get_account_ID
+    ID = db_accounts.findID_with_email(email).fetchone()[0]
+  File "C:\Users\yonat\PycharmProjects\chat_project\templates\account_management.py", line 44, in findID_with_email
+    WHERE email = ''' + '\'' +email + '\'')
+sqlite3.OperationalError: near "').tilt({
+			scale: 1.1
+		})
+	</script>
+<!--===============================================================================================-->
+	<script src="/static/Login_v1/js/main.js"></script>
+
+</body>
+</html>'": syntax error
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\yonat\PycharmProjects\chat_project\app.py", line 190, in search_msgs
+    account_ID = accounting_operations().get_account_ID()
+  File "C:\Users\yonat\PycharmProjects\chat_project\app.py", line 382, in get_account_ID
+    ID = db_accounts.findID_with_email(email).fetchone()[0]
+  File "C:\Users\yonat\PycharmProjects\chat_project\templates\account_management.py", line 44, in findID_with_email
+    WHERE email = ''' + '\'' +email + '\'')
+sqlite3.OperationalError: near "').tilt({
+			scale: 1.1
+		})
+	</script>
+<!--===============================================================================================-->
+	<script src="/static/Login_v1/js/main.js"></script>
+
+</body>
+</html>'": syntax error
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\yonat\PycharmProjects\chat_project\app.py", line 190, in search_msgs
+    account_ID = accounting_operations().get_account_ID()
+  File "C:\Users\yonat\PycharmProjects\chat_project\app.py", line 382, in get_account_ID
+    ID = db_accounts.findID_with_email(email).fetchone()[0]
+  File "C:\Users\yonat\PycharmProjects\chat_project\templates\account_management.py", line 44, in findID_with_email
+    WHERE email = ''' + '\'' +email + '\'')
+sqlite3.OperationalError: near "').tilt({
+			scale: 1.1
+		})
+	</script>
+<!--===============================================================================================-->
+	<script src="/static/Login_v1/js/main.js"></script>
+
+</body>
+</html>'": syntax error
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\yonat\PycharmProjects\chat_project\app.py", line 190, in search_msgs
+    account_ID = accounting_operations().get_account_ID()
+  File "C:\Users\yonat\PycharmProjects\chat_project\app.py", line 383, in get_account_ID
+    ID = db_accounts.findID_with_email(email).fetchone()[0]
+  File "C:\Users\yonat\PycharmProjects\chat_project\templates\account_management.py", line 44, in findID_with_email
+    WHERE email = ''' + '\'' + email + '\'')
+sqlite3.OperationalError: near "').tilt({
+			scale: 1.1
+		})
+	</script>
+<!--===============================================================================================-->
+	<script src="/static/Login_v1/js/main.js"></script>
+
+</body>
+</html>'": syntax error
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\yonat\PycharmProjects\chat_project\app.py", line 190, in search_msgs
+    account_ID = accounting_operations().get_account_ID()
+  File "C:\Users\yonat\PycharmProjects\chat_project\app.py", line 383, in get_account_ID
+    ID = db_accounts.findID_with_email(email).fetchone()[0]
+  File "C:\Users\yonat\PycharmProjects\chat_project\templates\account_management.py", line 44, in findID_with_email
+    WHERE email = ''' + '\'' + email + '\'')
+sqlite3.OperationalError: near "').tilt({
+			scale: 1.1
+		})
+	</script>
+<!--===============================================================================================-->
+	<script src="/static/Login_v1/js/main.js"></script>
+
+</body>
+</html>'": syntax error
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\yonat\PycharmProjects\chat_project\app.py", line 190, in search_msgs
+    account_ID = accounting_operations().get_account_ID()
+  File "C:\Users\yonat\PycharmProjects\chat_project\app.py", line 383, in get_account_ID
+    ID = db_accounts.findID_with_email(email).fetchone()[0]
+  File "C:\Users\yonat\PycharmProjects\chat_project\templates\account_management.py", line 44, in findID_with_email
+    WHERE email = ''' + '\'' + email + '\'')
+sqlite3.OperationalError: near "').tilt({
+			scale: 1.1
+		})
+	</script>
+<!--===============================================================================================-->
+	<script src="/static/Login_v1/js/main.js"></script>
+
+</body>
+</html>'": syntax error
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\yonat\PycharmProjects\chat_project\app.py", line 192, in search_msgs
+    last_id = db_convs.get_last_refreshed(last_uuid).fetchone()[0]
+TypeError: 'NoneType' object is not subscriptable
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\yonat\PycharmProjects\chat_project\app.py", line 192, in search_msgs
+    last_id = db_convs.get_last_refreshed(last_uuid).fetchone()[0]
+TypeError: 'NoneType' object is not subscriptable
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\yonat\PycharmProjects\chat_project\app.py", line 192, in search_msgs
+    last_id = db_convs.get_last_refreshed(last_uuid).fetchone()[0]
+TypeError: 'NoneType' object is not subscriptable
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\yonat\PycharmProjects\chat_project\app.py", line 192, in search_msgs
+    last_id = db_convs.get_last_refreshed(last_uuid).fetchone()[0]
+TypeError: 'NoneType' object is not subscriptable
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\yonat\PycharmProjects\chat_project\app.py", line 192, in search_msgs
+    last_id = db_convs.get_last_refreshed(last_uuid).fetchone()[0]
+TypeError: 'NoneType' object is not subscriptable
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\yonat\PycharmProjects\chat_project\app.py", line 192, in search_msgs
+    last_id = db_convs.get_last_refreshed(last_uuid).fetchone()[0]
+TypeError: 'NoneType' object is not subscriptable
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\yonat\PycharmProjects\chat_project\app.py", line 192, in search_msgs
+    last_id = db_convs.get_last_refreshed(last_uuid).fetchone()[0]
+TypeError: 'NoneType' object is not subscriptable
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\yonat\PycharmProjects\chat_project\app.py", line 192, in search_msgs
+    last_id = db_convs.get_last_refreshed(last_uuid).fetchone()[0]
+TypeError: 'NoneType' object is not subscriptable
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\yonat\PycharmProjects\chat_project\app.py", line 192, in search_msgs
+    last_id = db_convs.get_last_refreshed(last_uuid).fetchone()[0]
+TypeError: 'NoneType' object is not subscriptable
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\yonat\PycharmProjects\chat_project\app.py", line 192, in search_msgs
+    last_id = db_convs.get_last_refreshed(last_uuid).fetchone()[0]
+TypeError: 'NoneType' object is not subscriptable
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\yonat\PycharmProjects\chat_project\app.py", line 192, in search_msgs
+    print(cr_id + " " + account_ID)
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\yonat\PycharmProjects\chat_project\app.py", line 192, in search_msgs
+    print(cr_id + " " + account_ID)
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\yonat\PycharmProjects\chat_project\app.py", line 192, in search_msgs
+    print(cr_id + " " + account_ID)
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\yonat\PycharmProjects\chat_project\app.py", line 192, in search_msgs
+    print(cr_id + " " + str(account_ID))
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\yonat\PycharmProjects\chat_project\app.py", line 192, in search_msgs
+    print(cr_id + " " + str(account_ID))
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\yonat\PycharmProjects\chat_project\app.py", line 192, in search_msgs
+    print(cr_id + " " + str(account_ID))
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\yonat\PycharmProjects\chat_project\app.py", line 192, in search_msgs
+    print(cr_id + " " + str(account_ID))
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\yonat\PycharmProjects\chat_project\app.py", line 190, in search_msgs
+    account_ID = accounting_operations().get_account_ID()
+  File "C:\Users\yonat\PycharmProjects\chat_project\app.py", line 385, in get_account_ID
+    ID = db_accounts.findID_with_email(email).fetchone()[0]
+  File "C:\Users\yonat\PycharmProjects\chat_project\templates\account_management.py", line 44, in findID_with_email
+    WHERE email = ''' + '\'' + email + '\'')
+sqlite3.OperationalError: near "').tilt({
+			scale: 1.1
+		})
+	</script>
+<!--===============================================================================================-->
+	<script src="/static/Login_v1/js/main.js"></script>
+
+</body>
+</html>'": syntax error
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\yonat\PycharmProjects\chat_project\app.py", line 190, in search_msgs
+    account_ID = accounting_operations().get_account_ID()
+  File "C:\Users\yonat\PycharmProjects\chat_project\app.py", line 385, in get_account_ID
+    ID = db_accounts.findID_with_email(email).fetchone()[0]
+  File "C:\Users\yonat\PycharmProjects\chat_project\templates\account_management.py", line 44, in findID_with_email
+    WHERE email = ''' + '\'' + email + '\'')
+sqlite3.OperationalError: near "').tilt({
+			scale: 1.1
+		})
+	</script>
+<!--===============================================================================================-->
+	<script src="/static/Login_v1/js/main.js"></script>
+
+</body>
+</html>'": syntax error
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\yonat\PycharmProjects\chat_project\app.py", line 190, in search_msgs
+    account_ID = accounting_operations().get_account_ID()
+  File "C:\Users\yonat\PycharmProjects\chat_project\app.py", line 385, in get_account_ID
+    ID = db_accounts.findID_with_email(email).fetchone()[0]
+  File "C:\Users\yonat\PycharmProjects\chat_project\templates\account_management.py", line 44, in findID_with_email
+    WHERE email = ''' + '\'' + email + '\'')
+sqlite3.OperationalError: near "').tilt({
+			scale: 1.1
+		})
+	</script>
+<!--===============================================================================================-->
+	<script src="/static/Login_v1/js/main.js"></script>
+
+</body>
+</html>'": syntax error
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\yonat\PycharmProjects\chat_project\app.py", line 190, in search_msgs
+    account_ID = accounting_operations().get_account_ID()
+  File "C:\Users\yonat\PycharmProjects\chat_project\app.py", line 385, in get_account_ID
+    ID = db_accounts.findID_with_email(email).fetchone()[0]
+  File "C:\Users\yonat\PycharmProjects\chat_project\templates\account_management.py", line 44, in findID_with_email
+    WHERE email = ''' + '\'' + email + '\'')
+sqlite3.OperationalError: near "').tilt({
+			scale: 1.1
+		})
+	</script>
+<!--===============================================================================================-->
+	<script src="/static/Login_v1/js/main.js"></script>
+
+</body>
+</html>'": syntax error
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\yonat\PycharmProjects\chat_project\app.py", line 190, in search_msgs
+    account_ID = accounting_operations().get_account_ID()
+  File "C:\Users\yonat\PycharmProjects\chat_project\app.py", line 385, in get_account_ID
+    ID = db_accounts.findID_with_email(email).fetchone()[0]
+  File "C:\Users\yonat\PycharmProjects\chat_project\templates\account_management.py", line 44, in findID_with_email
+    WHERE email = ''' + '\'' + email + '\'')
+sqlite3.OperationalError: near "').tilt({
+			scale: 1.1
+		})
+	</script>
+<!--===============================================================================================-->
+	<script src="/static/Login_v1/js/main.js"></script>
+
+</body>
+</html>'": syntax error
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\yonat\PycharmProjects\chat_project\app.py", line 190, in search_msgs
+    last_id = db_convs.get_last_refreshed(last_uuid).fetchone()[0]
+TypeError: 'NoneType' object is not subscriptable
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\yonat\PycharmProjects\chat_project\app.py", line 190, in search_msgs
+    last_id = db_convs.get_last_refreshed(last_uuid).fetchone()[0]
+TypeError: 'NoneType' object is not subscriptable
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\yonat\PycharmProjects\chat_project\app.py", line 190, in search_msgs
+    last_id = db_convs.get_last_refreshed(last_uuid).fetchone()[0]
+TypeError: 'NoneType' object is not subscriptable
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\yonat\PycharmProjects\chat_project\app.py", line 190, in search_msgs
+    last_id = db_convs.get_last_refreshed(last_uuid).fetchone()[0]
+TypeError: 'NoneType' object is not subscriptable
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\yonat\PycharmProjects\chat_project\app.py", line 190, in search_msgs
+    last_id = db_convs.get_last_refreshed(last_uuid).fetchone()[0]
+TypeError: 'NoneType' object is not subscriptable
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\yonat\PycharmProjects\chat_project\app.py", line 190, in search_msgs
+    cr_id = db_cr.find_chat_room(cr_name, account_ID).fetchone()[0]
+TypeError: 'NoneType' object is not subscriptable
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\yonat\PycharmProjects\chat_project\app.py", line 190, in search_msgs
+    cr_id = db_cr.find_chat_room(cr_name, account_ID).fetchone()[0]
+TypeError: 'NoneType' object is not subscriptable
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 26, in _run_wsgi_app
+    return _run_wsgi_app(*args)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1982, in make_response
+    reraise(TypeError, new_error, sys.exc_info()[2])
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 34, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 26, in _run_wsgi_app
+    return _run_wsgi_app(*args)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+The view function did not return a valid response. The return type must be a string, tuple, Response instance, or WSGI callable, but it was a list.
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1982, in make_response
+    reraise(TypeError, new_error, sys.exc_info()[2])
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 34, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+The view function did not return a valid response. The return type must be a string, tuple, Response instance, or WSGI callable, but it was a list.
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 26, in _run_wsgi_app
+    return _run_wsgi_app(*args)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1982, in make_response
+    reraise(TypeError, new_error, sys.exc_info()[2])
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 34, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 26, in _run_wsgi_app
+    return _run_wsgi_app(*args)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+The view function did not return a valid response. The return type must be a string, tuple, Response instance, or WSGI callable, but it was a list.
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1982, in make_response
+    reraise(TypeError, new_error, sys.exc_info()[2])
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 34, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+The view function did not return a valid response. The return type must be a string, tuple, Response instance, or WSGI callable, but it was a list.
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1982, in make_response
+    reraise(TypeError, new_error, sys.exc_info()[2])
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 34, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+The view function did not return a valid response. The return type must be a string, tuple, Response instance, or WSGI callable, but it was a list.
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1982, in make_response
+    reraise(TypeError, new_error, sys.exc_info()[2])
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 34, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+The view function did not return a valid response. The return type must be a string, tuple, Response instance, or WSGI callable, but it was a list.
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1982, in make_response
+    reraise(TypeError, new_error, sys.exc_info()[2])
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 34, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+The view function did not return a valid response. The return type must be a string, tuple, Response instance, or WSGI callable, but it was a list.
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1982, in make_response
+    reraise(TypeError, new_error, sys.exc_info()[2])
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 34, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+The view function did not return a valid response. The return type must be a string, tuple, Response instance, or WSGI callable, but it was a list.
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1982, in make_response
+    reraise(TypeError, new_error, sys.exc_info()[2])
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 34, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+The view function did not return a valid response. The return type must be a string, tuple, Response instance, or WSGI callable, but it was a list.
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1982, in make_response
+    reraise(TypeError, new_error, sys.exc_info()[2])
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 34, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+The view function did not return a valid response. The return type must be a string, tuple, Response instance, or WSGI callable, but it was a list.
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1982, in make_response
+    reraise(TypeError, new_error, sys.exc_info()[2])
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 34, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+The view function did not return a valid response. The return type must be a string, tuple, Response instance, or WSGI callable, but it was a list.
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1982, in make_response
+    reraise(TypeError, new_error, sys.exc_info()[2])
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 34, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+The view function did not return a valid response. The return type must be a string, tuple, Response instance, or WSGI callable, but it was a list.
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1982, in make_response
+    reraise(TypeError, new_error, sys.exc_info()[2])
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 34, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+The view function did not return a valid response. The return type must be a string, tuple, Response instance, or WSGI callable, but it was a list.
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1982, in make_response
+    reraise(TypeError, new_error, sys.exc_info()[2])
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 34, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+The view function did not return a valid response. The return type must be a string, tuple, Response instance, or WSGI callable, but it was a list.
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1982, in make_response
+    reraise(TypeError, new_error, sys.exc_info()[2])
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 34, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+The view function did not return a valid response. The return type must be a string, tuple, Response instance, or WSGI callable, but it was a list.
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1982, in make_response
+    reraise(TypeError, new_error, sys.exc_info()[2])
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 34, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+The view function did not return a valid response. The return type must be a string, tuple, Response instance, or WSGI callable, but it was a list.
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1982, in make_response
+    reraise(TypeError, new_error, sys.exc_info()[2])
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 34, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+The view function did not return a valid response. The return type must be a string, tuple, Response instance, or WSGI callable, but it was a list.
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1982, in make_response
+    reraise(TypeError, new_error, sys.exc_info()[2])
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 34, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+The view function did not return a valid response. The return type must be a string, tuple, Response instance, or WSGI callable, but it was a list.
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1982, in make_response
+    reraise(TypeError, new_error, sys.exc_info()[2])
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 34, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+The view function did not return a valid response. The return type must be a string, tuple, Response instance, or WSGI callable, but it was a list.
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1982, in make_response
+    reraise(TypeError, new_error, sys.exc_info()[2])
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 34, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+The view function did not return a valid response. The return type must be a string, tuple, Response instance, or WSGI callable, but it was a list.
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1982, in make_response
+    reraise(TypeError, new_error, sys.exc_info()[2])
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 34, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+The view function did not return a valid response. The return type must be a string, tuple, Response instance, or WSGI callable, but it was a list.
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1982, in make_response
+    reraise(TypeError, new_error, sys.exc_info()[2])
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 34, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+The view function did not return a valid response. The return type must be a string, tuple, Response instance, or WSGI callable, but it was a list.
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1982, in make_response
+    reraise(TypeError, new_error, sys.exc_info()[2])
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 34, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+The view function did not return a valid response. The return type must be a string, tuple, Response instance, or WSGI callable, but it was a list.
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1982, in make_response
+    reraise(TypeError, new_error, sys.exc_info()[2])
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 34, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+The view function did not return a valid response. The return type must be a string, tuple, Response instance, or WSGI callable, but it was a list.
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1982, in make_response
+    reraise(TypeError, new_error, sys.exc_info()[2])
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 34, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+The view function did not return a valid response. The return type must be a string, tuple, Response instance, or WSGI callable, but it was a list.
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1982, in make_response
+    reraise(TypeError, new_error, sys.exc_info()[2])
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 34, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+The view function did not return a valid response. The return type must be a string, tuple, Response instance, or WSGI callable, but it was a list.
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1982, in make_response
+    reraise(TypeError, new_error, sys.exc_info()[2])
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 34, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+The view function did not return a valid response. The return type must be a string, tuple, Response instance, or WSGI callable, but it was a list.
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1982, in make_response
+    reraise(TypeError, new_error, sys.exc_info()[2])
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 34, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+The view function did not return a valid response. The return type must be a string, tuple, Response instance, or WSGI callable, but it was a list.
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1982, in make_response
+    reraise(TypeError, new_error, sys.exc_info()[2])
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 34, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+The view function did not return a valid response. The return type must be a string, tuple, Response instance, or WSGI callable, but it was a list.
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1982, in make_response
+    reraise(TypeError, new_error, sys.exc_info()[2])
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 34, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+The view function did not return a valid response. The return type must be a string, tuple, Response instance, or WSGI callable, but it was a list.
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1982, in make_response
+    reraise(TypeError, new_error, sys.exc_info()[2])
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 34, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+The view function did not return a valid response. The return type must be a string, tuple, Response instance, or WSGI callable, but it was a list.
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1982, in make_response
+    reraise(TypeError, new_error, sys.exc_info()[2])
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 34, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+The view function did not return a valid response. The return type must be a string, tuple, Response instance, or WSGI callable, but it was a list.
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1982, in make_response
+    reraise(TypeError, new_error, sys.exc_info()[2])
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 34, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+The view function did not return a valid response. The return type must be a string, tuple, Response instance, or WSGI callable, but it was a list.
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1982, in make_response
+    reraise(TypeError, new_error, sys.exc_info()[2])
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 34, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+The view function did not return a valid response. The return type must be a string, tuple, Response instance, or WSGI callable, but it was a list.
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1982, in make_response
+    reraise(TypeError, new_error, sys.exc_info()[2])
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 34, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+The view function did not return a valid response. The return type must be a string, tuple, Response instance, or WSGI callable, but it was a list.
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1982, in make_response
+    reraise(TypeError, new_error, sys.exc_info()[2])
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 34, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+The view function did not return a valid response. The return type must be a string, tuple, Response instance, or WSGI callable, but it was a list.
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1982, in make_response
+    reraise(TypeError, new_error, sys.exc_info()[2])
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 34, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+The view function did not return a valid response. The return type must be a string, tuple, Response instance, or WSGI callable, but it was a list.
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1982, in make_response
+    reraise(TypeError, new_error, sys.exc_info()[2])
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 34, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+The view function did not return a valid response. The return type must be a string, tuple, Response instance, or WSGI callable, but it was a list.
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1982, in make_response
+    reraise(TypeError, new_error, sys.exc_info()[2])
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 34, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+The view function did not return a valid response. The return type must be a string, tuple, Response instance, or WSGI callable, but it was a list.
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1982, in make_response
+    reraise(TypeError, new_error, sys.exc_info()[2])
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 34, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+The view function did not return a valid response. The return type must be a string, tuple, Response instance, or WSGI callable, but it was a list.
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1982, in make_response
+    reraise(TypeError, new_error, sys.exc_info()[2])
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 34, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+The view function did not return a valid response. The return type must be a string, tuple, Response instance, or WSGI callable, but it was a list.
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1982, in make_response
+    reraise(TypeError, new_error, sys.exc_info()[2])
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 34, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+The view function did not return a valid response. The return type must be a string, tuple, Response instance, or WSGI callable, but it was a list.
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1982, in make_response
+    reraise(TypeError, new_error, sys.exc_info()[2])
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 34, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+The view function did not return a valid response. The return type must be a string, tuple, Response instance, or WSGI callable, but it was a list.
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1982, in make_response
+    reraise(TypeError, new_error, sys.exc_info()[2])
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 34, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+The view function did not return a valid response. The return type must be a string, tuple, Response instance, or WSGI callable, but it was a list.
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1982, in make_response
+    reraise(TypeError, new_error, sys.exc_info()[2])
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 34, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+The view function did not return a valid response. The return type must be a string, tuple, Response instance, or WSGI callable, but it was a list.
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1982, in make_response
+    reraise(TypeError, new_error, sys.exc_info()[2])
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 34, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+The view function did not return a valid response. The return type must be a string, tuple, Response instance, or WSGI callable, but it was a list.
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1982, in make_response
+    reraise(TypeError, new_error, sys.exc_info()[2])
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 34, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+The view function did not return a valid response. The return type must be a string, tuple, Response instance, or WSGI callable, but it was a list.
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1982, in make_response
+    reraise(TypeError, new_error, sys.exc_info()[2])
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 34, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+The view function did not return a valid response. The return type must be a string, tuple, Response instance, or WSGI callable, but it was a list.
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1982, in make_response
+    reraise(TypeError, new_error, sys.exc_info()[2])
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 34, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+The view function did not return a valid response. The return type must be a string, tuple, Response instance, or WSGI callable, but it was a list.
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1982, in make_response
+    reraise(TypeError, new_error, sys.exc_info()[2])
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 34, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+The view function did not return a valid response. The return type must be a string, tuple, Response instance, or WSGI callable, but it was a list.
+Exception on /search_messages [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1982, in make_response
+    reraise(TypeError, new_error, sys.exc_info()[2])
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 34, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1974, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\wrappers\base_response.py", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\werkzeug\test.py", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'list' object is not callable
+The view function did not return a valid response. The return type must be a string, tuple, Response instance, or WSGI callable, but it was a list.
+Exception on /search_rooms_else [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\yonat\PycharmProjects\chat_project\app.py", line 176, in refill_rooms
+    account_ID = class_accounting.get_account_ID()
+  File "C:\Users\yonat\PycharmProjects\chat_project\app.py", line 403, in get_account_ID
+    ID = db_accounts.findID_with_email(email).fetchone()[0]
+  File "C:\Users\yonat\PycharmProjects\chat_project\templates\account_management.py", line 44, in findID_with_email
+    WHERE email = ''' + '\'' + email + '\'')
+sqlite3.OperationalError: near "').tilt({
+			scale: 1.1
+		})
+	</script>
+<!--===============================================================================================-->
+	<script src="/static/Login_v1/js/main.js"></script>
+
+</body>
+</html>'": syntax error
+Exception on /search_rooms_else [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\yonat\PycharmProjects\chat_project\app.py", line 178, in refill_rooms
+    account_ID = class_accounting.get_account_ID()
+  File "C:\Users\yonat\PycharmProjects\chat_project\app.py", line 405, in get_account_ID
+    ID = db_accounts.findID_with_email(email).fetchone()[0]
+  File "C:\Users\yonat\PycharmProjects\chat_project\templates\account_management.py", line 44, in findID_with_email
+    WHERE email = ''' + '\'' + email + '\'')
+sqlite3.OperationalError: near "').tilt({
+			scale: 1.1
+		})
+	</script>
+<!--===============================================================================================-->
+	<script src="/static/Login_v1/js/main.js"></script>
+
+</body>
+</html>'": syntax error
+Exception on /search_rooms_else [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\yonat\PycharmProjects\chat_project\app.py", line 177, in refill_rooms
+    account_ID = class_accounting.get_account_ID()
+  File "C:\Users\yonat\PycharmProjects\chat_project\app.py", line 404, in get_account_ID
+    ID = db_accounts.findID_with_email(email).fetchone()[0]
+  File "C:\Users\yonat\PycharmProjects\chat_project\templates\account_management.py", line 44, in findID_with_email
+    WHERE email = ''' + '\'' + email + '\'')
+sqlite3.OperationalError: near "').tilt({
+			scale: 1.1
+		})
+	</script>
+<!--===============================================================================================-->
+	<script src="/static/Login_v1/js/main.js"></script>
+
+</body>
+</html>'": syntax error
+Exception on /search_rooms_else [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\yonat\PycharmProjects\chat_project\app.py", line 177, in refill_rooms
+    account_ID = class_accounting.get_account_ID()
+  File "C:\Users\yonat\PycharmProjects\chat_project\app.py", line 404, in get_account_ID
+    ID = db_accounts.findID_with_email(email).fetchone()[0]
+  File "C:\Users\yonat\PycharmProjects\chat_project\templates\account_management.py", line 44, in findID_with_email
+    WHERE email = ''' + '\'' + email + '\'')
+sqlite3.OperationalError: near "').tilt({
+			scale: 1.1
+		})
+	</script>
+<!--===============================================================================================-->
+	<script src="/static/Login_v1/js/main.js"></script>
+
+</body>
+</html>'": syntax error
+Exception on /search_rooms_else [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\yonat\PycharmProjects\chat_project\app.py", line 174, in refill_rooms
+    account_ID = class_accounting.get_account_ID()
+  File "C:\Users\yonat\PycharmProjects\chat_project\app.py", line 394, in get_account_ID
+    ID = db_accounts.findID_with_email(email).fetchone()[0]
+  File "C:\Users\yonat\PycharmProjects\chat_project\templates\account_management.py", line 43, in findID_with_email
+    return cursor.execute('''SELECT ID FROM accounts_management WHERE email = ''' + '\'' + email + '\'')
+sqlite3.OperationalError: near "').tilt({
+			scale: 1.1
+		})
+	</script>
+<!--===============================================================================================-->
+	<script src="/static/Login_v1/js/main.js"></script>
+
+</body>
+</html>'": syntax error
+Exception on /search_rooms_else [GET]
+Traceback (most recent call last):
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\yonat\PycharmProjects\chat_project\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\yonat\PycharmProjects\chat_project\app.py", line 174, in refill_rooms
+    account_ID = class_accounting.get_account_ID()
+  File "C:\Users\yonat\PycharmProjects\chat_project\app.py", line 394, in get_account_ID
+    ID = db_accounts.findID_with_email(email).fetchone()[0]
+  File "C:\Users\yonat\PycharmProjects\chat_project\templates\account_management.py", line 43, in findID_with_email
+    return cursor.execute('''SELECT ID FROM accounts_management WHERE email = ''' + '\'' + email + '\'')
+sqlite3.OperationalError: near "').tilt({
+			scale: 1.1
+		})
+	</script>
+<!--===============================================================================================-->
+	<script src="/static/Login_v1/js/main.js"></script>
+
+</body>
+</html>'": syntax error
+C:\Users\yonat\PycharmProjects\chat_project/static/profile_picture
+saving C:\Users\yonat\PycharmProjects\chat_project/static/profile_picture\
+C:\Users\yonat\PycharmProjects\chat_project/static/profile_picture
+saving C:\Users\yonat\PycharmProjects\chat_project/static/profile_picture\
+C:\Users\yonat\PycharmProjects\chat_project/static/profile_picture
+saving C:\Users\yonat\PycharmProjects\chat_project/static/profile_picture\

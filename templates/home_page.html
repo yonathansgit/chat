@@ -1,0 +1,1183 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<style>
+    .container{max-width:1170px; margin:auto;}
+img{ max-width:100%;}
+.inbox_people {
+  background: #f8f8f8 none repeat scroll 0 0;
+  float: left;
+  overflow: hidden;
+  width: 40%; border-right:1px solid #c4c4c4;
+}
+.inbox_msg {
+  border: 1px solid #c4c4c4;
+  clear: both;
+  overflow: hidden;
+}
+.top_spac{ margin: 20px 0 0;}
+
+
+.recent_heading {float: left; width:40%;}
+.srch_bar {
+  display: inline-block;
+  text-align: right;
+  width: 60%; padding:
+}
+.headind_srch{ padding:10px 29px 10px 20px; overflow:hidden; border-bottom:1px solid #c4c4c4;}
+
+.recent_heading h4 {
+  color: #05728f;
+  font-size: 21px;
+  margin: auto;
+}
+.srch_bar input{ border:1px solid #cdcdcd; border-width:0 0 1px 0; width:80%; padding:2px 0 4px 6px; background:none;}
+.srch_bar .input-group-addon button {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border: medium none;
+  padding: 0;
+  color: #707070;
+  font-size: 18px;
+}
+.srch_bar .input-group-addon { margin: 0 0 0 -27px;}
+
+.chat_ib h5{ font-size:15px; color:#464646; margin:0 0 8px 0;}
+.chat_ib h5 span{ font-size:13px; float:right;}
+.chat_ib p{ font-size:14px; color:#989898; margin:auto}
+.chat_img {
+  float: left;
+  width: 11%;
+}
+.chat_ib {
+  float: left;
+  padding: 0 0 0 15px;
+  width: 88%;
+}
+
+.chat_people{ overflow:hidden; clear:both;}
+.chat_list {
+  border-bottom: 1px solid #c4c4c4;
+  margin: 0;
+  width: 427px;
+    height: 99px;
+  padding: 18px 17px 10px;
+}
+.inbox_chat { height: 550px; overflow-y: scroll;}
+
+.active_chat{ background:#ebebeb;}
+
+.incoming_msg_img {
+  display: inline-block;
+  width: 6%;
+
+}
+.received_msg {
+  display: inline-block;
+  padding: 0 0 0 10px;
+  vertical-align: top;
+  width: 92%;
+ }
+ .received_withd_msg p {
+  background: #ebebeb none repeat scroll 0 0;
+  border-radius: 3px;
+  color: #646464;
+  font-size: 14px;
+  margin: 0;
+  padding: 5px 10px 5px 12px;
+  width: 100%;
+}
+.time_date {
+  color: #747474;
+  display: block;
+  font-size: 12px;
+  margin: 8px 0 0;
+}
+.received_withd_msg { width: 57%;}
+.mesgs {
+  float: left;
+  padding: 30px 15px 0 25px;
+  width: 60%;
+}
+
+ .sent_msg p {
+  background: #05728f none repeat scroll 0 0;
+  border-radius: 3px;
+  font-size: 14px;
+  margin: 0; color:#fff;
+  padding: 5px 10px 5px 12px;
+  width:100%;
+}
+.outgoing_msg{ overflow:hidden; margin:26px 0 26px;}
+.sent_msg {
+  float: right;
+  width: 46%;
+}
+.input_msg_write input {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border: medium none;
+  color: #4c4c4c;
+  font-size: 15px;
+  min-height: 48px;
+  width: 100%;
+}
+
+.type_msg {border-top: 1px solid #c4c4c4;position: relative;}
+.msg_send_btn {
+  background: #05728f none repeat scroll 0 0;
+  border: medium none;
+  border-radius: 50%;
+  color: #fff;
+  cursor: pointer;
+  font-size: 17px;
+  height: 33px;
+  position: absolute;
+  right: 0;
+  top: 11px;
+  width: 33px;
+}
+.messaging { padding: 0 0 50px 0;}
+.msg_history {
+  height: 516px;
+  overflow-y: auto;
+}
+</style>
+</body>
+
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+
+
+<head>
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" type="text/css" rel="stylesheet">
+
+    <style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  text-align: center;
+  text-align-all: center;
+  width: 100%;
+  height: 16%;
+  background-color: #05728f;
+  color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+  padding: 2px 16px;
+  background-color: #fefefe;
+  color: white;
+}
+
+/* Full-width input fields */
+.modal-body input[type=text], .modal-body input[type=password] {
+  width: 97%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.modal-body input[type=text]:focus, .modal-body input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.new_cr_img{
+	border-radius: 50%;
+	width: 15%;
+	height: 15%;
+
+}
+
+.new_cr_div_img{
+	text-align: center;
+}
+
+.input_new_cr_avatar{
+    margin-top: 15px;
+	text-align: center;
+
+}
+
+.div_submit_new_cr{
+	text-align: center;
+}
+
+.submit_new_cr{
+	margin-top: 50px;
+	width: 50%;
+	padding: 1.5%;
+	color: white;
+	background-color: #05728f;
+	font-size: 20px;
+
+
+
+}
+
+
+
+
+
+
+
+.autocomplete-items {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  border-bottom: none;
+  border-top: none;
+  z-index: 99;
+  /*position the autocomplete items to be the same width as the container:*/
+  top: 100%;
+  left: 0;
+  right: 0;
+}
+
+.autocomplete-items div {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #fff;
+  border-bottom: 1px solid #d4d4d4;
+}
+
+/*when hovering an item:*/
+.autocomplete-items div:hover {
+  background-color: #e9e9e9;
+}
+
+/*when navigating through the items using the arrow keys:*/
+.autocomplete-active {
+  background-color: DodgerBlue !important;
+  color: #ffffff;
+}
+
+
+
+
+
+/* The actual popup */
+.sent_msg .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+
+.received_msg .popuptext{
+    visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+
+/* Popup arrow */
+.sent_msg .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.received_msg. popuptext::after {
+    content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+
+/* Toggle this class - hide and show the popup */
+.sent_msg .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+.received_msg .show{
+    visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+
+    </style>
+
+</head>
+
+
+
+
+
+
+
+
+
+<body>
+
+
+<script>
+    function taken(){
+    var message = "{{ error }}";
+    if (message != ""){
+        alert(message)
+    }
+}
+taken()
+</script>
+
+
+<div class="container">
+
+
+    <ul>
+  <li><a class="active" href="http://127.0.0.1:5000/">Home</a></li>
+  <li class="dropdown">
+      <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+        <a href="#">Link 3</a></div></li>
+  <li><a href="#contact" id="myBtn">New Chat Room</a></li>
+
+
+
+   <div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+        <h1 style="margin-left: 415px;">Add Chat Room</h1>
+      <span class="close">&times;</span>
+
+    </div>
+    <div class="modal-body" id="modal-body">
+      <form action="http://127.0.0.1:5000/new_chat_room" autocomplete="off" method="post" enctype="multipart/form-data">
+      	<div>
+      		<p style="font-size: 18px; margin-top: 15px;">Room Name :</p>
+      		<input type="text" id="new_cr_name" name="new_cr_name" placeholder="Name" required>
+      	</div>
+      	<div id="n_cr_users">
+      		<p style="font-size: 18px; margin-top: 15px;">Participants Members :</p>
+      		<input type="text" id="ncr_users_list" name="ncr_users_list" onkeyup="autocomplete(document.getElementById('ncr_users_list'), {{ emails | safe}})}"  placeholder="Members's emails">
+      	</div>
+        <div>
+            <p style="font-size: 18px; margin-top: 15px;">Description :</p>
+            <input type="text" id="new_description" name="new_description" placeholder="Description">
+        </div>
+      	<div>
+      		<p style="font-size: 18px; margin-top: 15px;">Avatar :</p>
+      		<div class="new_cr_div_img">
+      		<img src="/static/profile_picture/users-icon.png" class="new_cr_img"></div>
+      		<div class="input_new_cr_avatar">
+      			<input type="file" id="ncr_avatar_pic" name="ncr_avatar_pic">
+      		</div>
+
+      	</div>
+
+      	<div class="div_submit_new_cr">
+      		<input class="submit_new_cr" type="submit" value="Create Chat Room">
+      	</div>
+
+      </form>
+    </div>
+    <div class="modal-footer">
+      <h3> </h3>
+    </div>
+  </div>
+
+</div>
+
+
+  <li style="float:right"><a href="http://127.0.0.1:5000/" onclick="return_home()">Disconnect</a></li>
+    </ul>
+
+<h3 class=" text-center" id="text-center">Chat Rooms</h3>
+<div class="messaging">
+      <div class="inbox_msg">
+        <div class="inbox_people">
+          <div class="headind_srch">
+            <div class="recent_heading">
+              <h4>Recent</h4>
+            </div>
+            <div class="srch_bar">
+              <div class="stylish-input-group">
+                <input type="text" class="search-bar"  placeholder="Search" onkeyup="search_rooms()" id="search-bar">
+                <span class="input-group-addon">
+                <button type="button"> <i class="fa fa-search" aria-hidden="true"></i> </button>
+                </span> </div>
+            </div>
+          </div>
+          <div class="inbox_chat" id="inbox_chat">
+          </div>
+        </div>
+        <div class="mesgs" id="mesgs">
+          <div class="msg_history" id ="msg_history">
+            <div class="incoming_msg">
+              <div class="incoming_msg_img"> <img src="/static/profile_picture/8.jpg" alt="sunil" style="width: 37px; height: 37px; border-radius: 50%"> </div>
+              <div class="received_msg">
+                <div class="received_withd_msg">
+                  <p>Test which is a new approach to have all
+                    solutions</p>
+                  <span class="time_date"> 11:01 AM    |    June 9</span></div>
+              </div>
+            </div>
+            <div class="outgoing_msg">
+              <div class="sent_msg">
+                <p>Test which is a new approach to have all
+                  solutions</p>
+                <span class="time_date"> 11:01 AM    |    June 9</span> </div>
+            </div>
+            <div class="incoming_msg">
+              <div class="incoming_msg_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
+              <div class="received_msg">
+                <div class="received_withd_msg">
+                  <p>Test, which is a new approach to have</p>
+                  <span class="time_date"> 11:01 AM    |    Yesterday</span></div>
+              </div>
+            </div>
+            <div class="outgoing_msg">
+              <div class="sent_msg">
+                <p>Apollo University, Delhi, India Test</p>
+                <span class="time_date"> 11:01 AM    |    Today</span> </div>
+            </div>
+            <div class="incoming_msg">
+              <div class="incoming_msg_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
+              <div class="received_msg">
+                <div class="received_withd_msg">
+                  <p>We work directly with our designers and suppliers,
+                    and sell direct to you, which means quality, exclusive
+                    products, at a price anyone can afford.</p>
+                  <span class="time_date"> 11:01 AM    |    Today</span></div>
+              </div>
+            </div>
+          </div>
+          <div class="type_msg">
+            <div class="input_msg_write">
+              <input type="text" class="write_msg" placeholder="Type a message" />
+              <button class="msg_send_btn" type="button"><i class="fa fa-paper-plane-o" aria-hidden="true" onclick="send_message()"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    initiate_chat_rooms();
+
+
+
+
+
+
+    // Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal
+btn.onclick = function() {
+  modal.style.display = "block";
+
+
+};
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+};
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+};
+
+
+
+
+
+
+function send_message() {
+    var msg = document.getElementsByClassName("write_msg")[0].value;
+    var date = new Date();
+    var chat_room_name = document.getElementsByClassName(" text-center")[0].lastChild.nodeValue;
+    document.getElementsByClassName("write_msg")[0].value = "";
+
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function () {
+        if (this.readyState == 4 && this.status == 200) {
+            var response_split = this.response.split(",");
+            var date = response_split[0];
+            var uuid = response_split[1];
+            add_outgoing_msg(msg, date, uuid);
+
+
+        }
+    };
+
+
+    xhttp.open("GET", "http://127.0.0.1:5000/message_sending?msg=" + msg + "&cr_name=" + chat_room_name + "&time=" + date, true);
+    xhttp.send();
+
+
+}
+
+
+function enter_chat_room(ID) {
+    var chat_room_name = document.getElementById(ID).querySelector("h5").childNodes[0].textContent;
+    var active_chat = document.getElementsByClassName("chat_list active_chat")[0];
+    active_chat.setAttribute("class","chat_list");
+    document.getElementById(ID).parentNode.parentNode.classList.add("active_chat");
+    var head = document.getElementById("text-center");
+    head.innerText = chat_room_name;
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function () {
+        if (this.readyState == 4 && this.status == 200) {
+            var history_div = document.getElementById("msg_history");
+            while (history_div.firstChild) {
+                history_div.removeChild(history_div.firstChild);
+            }
+            var all_conv = this.response;
+            var convs = JSON.parse(all_conv);
+            var all_length = convs.length;
+            var account_ID = convs[0];
+            var i;
+            for (i = 0; i < all_length; i++){
+                var date = convs[i + 1][2] + " " + convs[i + 1][3];
+                var msg = convs[i + 1][1];
+                var uuid = convs[i + 1][4];
+                if (convs[i + 1][0] == account_ID){
+                    add_outgoing_msg(msg, date, uuid)
+                }
+                else{
+                    var uuid = convs[i + 1][4];
+                    var path = convs[i + 1][5];
+                    add_incoming_msg(msg, date, path, uuid)
+                }
+            }
+
+        }
+    };
+
+
+     xhttp.open("GET", "http://127.0.0.1:5000/enter_chat_room?name="+chat_room_name, true);
+     xhttp.send();
+}
+
+
+
+function search_rooms() {
+    var searching = document.getElementById("search-bar").value;
+    if (searching.length > 0) {
+
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+                var cr_list = this.response;
+                var list = JSON.parse(cr_list);
+                var big_list_len = list.length;
+                var buttons = document.getElementById("inbox_chat");
+                while (buttons.firstChild) {
+                    buttons.removeChild(buttons.firstChild);
+                }
+                var i;
+                for (i = 0; i < big_list_len; i++) {
+                    var id = list[i][0];
+                    var name = list[i][1];
+                    var path = list[i][2];
+                    var description = list[i][3];
+                    var main_div = document.getElementById("inbox_chat");
+                    var button = document.createElement("button");
+                    button.classList.add("chat_list");
+                    button.setAttribute("onclick", "enter_chat_room(" + id + ")");
+
+
+                    button.setAttribute("name", "chat_room_button");
+                    var div_chat_people = document.createElement("div");
+                    div_chat_people.classList.add("chat_people");
+                    button.appendChild(div_chat_people);
+                    var div_chat_img = document.createElement("div");
+                    div_chat_img.classList.add("chat_img");
+                    var img = document.createElement("img");
+                    img.src = path;
+                    img.alt = "sunil";
+                    div_chat_img.appendChild(img);
+                    div_chat_people.appendChild(div_chat_img);
+                    var div_chat_ib = document.createElement("div");
+                    div_chat_ib.classList.add("chat_ib");
+                    div_chat_ib.setAttribute("id", id);
+                    var h5 = document.createElement("h5");
+                    h5.innerText = name;
+                    var span = document.createElement("span");
+                    span.classList.add("chat_date");
+                    span.innerText = "";
+                    h5.appendChild(span);
+                    div_chat_ib.appendChild(h5);
+                    var p = document.createElement("p");
+                    p.innerText = description;
+                    div_chat_ib.appendChild(p);
+                    div_chat_people.appendChild(div_chat_ib);
+                    main_div.appendChild(button);
+                }
+
+
+            }
+        };
+    }
+    else {
+        initiate_chat_rooms()
+    }
+
+    xhttp.open("GET", "http://127.0.0.1:5000/search_room?exp=" + searching, true);
+    xhttp.send();
+
+
+
+}
+
+
+
+function add_outgoing_msg(message, date, ID) {
+    var span_msg = document.createElement("span");   //
+    span_msg.classList.add("msg_propreties");    //
+    span_msg.setAttribute("id", ID + "-span");    //
+
+
+
+    var space_div = document.createElement("div");
+    var inner_div = document.createElement("div");
+    inner_div.classList.add("sent_msg");
+    inner_div.setAttribute("onmousedown", "msg_attributes(" + event + ")");   //
+    var paragraph = document.createElement("p");
+    paragraph.innerText = message;
+    inner_div.appendChild(paragraph);
+    var outside_div = document.createElement("div");
+    outside_div.classList.add("outgoing_msg");
+    outside_div.setAttribute("id", ID);
+    inner_div.appendChild(span_popup);
+    outside_div.appendChild(inner_div);
+    var msgs = document.getElementById("msg_history");
+    msgs.appendChild(space_div);
+    msgs.appendChild(outside_div);
+
+    var date_tuple = date.split(' ');
+    var span = document.createElement("span");
+    span.classList.add("time_date");
+    var date_in_num = date_tuple[0];
+    var hour = date_tuple[1];
+    span.innerText = date_in_num + " | " + hour;
+    inner_div.appendChild(span);
+}
+
+
+
+function add_incoming_msg(message, date, path, ID){
+    var main_div = document.getElementById("msg_history");
+    var space_div = document.createElement("div");
+    var incoming_msg_div = document.createElement("div");
+    incoming_msg_div.classList.add("incoming_msg");
+    incoming_msg_div.setAttribute("id", ID);
+    var incoming_msg_img_div = document.createElement("div");
+    incoming_msg_img_div.classList.add("incoming_msg_img");
+    var img = document.createElement("img");
+    img.src = path;
+    img.alt = "sunil";
+    img.style.width="37px";
+    img.style.height="37px";
+    img.style.borderRadius="50%";
+    incoming_msg_img_div.appendChild(img);
+    incoming_msg_div.appendChild(incoming_msg_img_div);
+    var received_msg_div = document.createElement("div");
+    received_msg_div.classList.add("received_msg");
+    var received_withd_msg = document.createElement("div");
+    received_withd_msg.classList.add("received_withd_msg");
+    var p = document.createElement("p");
+    p.innerText = message;
+    var span = document.createElement("span");
+    span.classList.add("time_date");
+    var date_tuple = date.split(' ');
+    var date_in_num = date_tuple[0];
+    var hour = date_tuple[1];
+    span.innerText = date_in_num + " | " + hour;
+    received_withd_msg.appendChild(p);
+    received_withd_msg.appendChild(span);
+    received_msg_div.appendChild(received_withd_msg);
+    incoming_msg_div.appendChild(received_msg_div);
+    incoming_msg_div.appendChild(space_div);
+    main_div.appendChild(space_div);
+    main_div.appendChild(incoming_msg_div);
+
+
+
+}
+
+
+
+function return_home(){
+    alert("in return_home");
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function(){
+            if(this.readyState == 4 && this.status == 200){
+                var a = this.response
+            }
+    };
+    xhttp.open("GET", "http://127.0.0.1:5000/return_home", true);
+    xhttp.send()
+}
+
+
+
+function initiate_chat_rooms() {
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function () {
+        if (this.readyState == 4 && this.status == 200) {
+            var cr_list = this.response;
+            var list = JSON.parse(cr_list);
+            var big_list_len = list.length;
+            var buttons = document.getElementById("inbox_chat");
+            while (buttons.firstChild) {
+                buttons.removeChild(buttons.firstChild);
+            }
+            var i;
+            for (i = 0; i < big_list_len; i++) {
+                var id = list[i][0];
+                var name = list[i][1];
+                var path = list[i][2];
+                var description = list[i][3];
+
+
+                var main_div = document.getElementById("inbox_chat");
+                var button = document.createElement("button");
+                button.classList.add("chat_list");
+                button.setAttribute("onclick", "enter_chat_room(" + id + ")");
+                button.setAttribute("name", "chat_room_button");
+                var div_chat_people = document.createElement("div");
+                div_chat_people.classList.add("chat_people");
+                button.appendChild(div_chat_people);
+                var div_chat_img = document.createElement("div");
+                div_chat_img.classList.add("chat_img");
+                var img = document.createElement("img");
+                img.src = path;
+                img.alt = "sunil";
+                div_chat_img.appendChild(img);
+                div_chat_people.appendChild(div_chat_img);
+                var div_chat_ib = document.createElement("div");
+                div_chat_ib.classList.add("chat_ib");
+                div_chat_ib.setAttribute("id", id);
+                var h5 = document.createElement("h5");
+                h5.innerText = name;
+                var span = document.createElement("span");
+                span.classList.add("chat_date");
+                span.innerText = "";
+                h5.appendChild(span);
+                div_chat_ib.appendChild(h5);
+                var p = document.createElement("p");
+                p.innerText = description;
+                div_chat_ib.appendChild(p);
+                div_chat_people.appendChild(div_chat_ib);
+                main_div.appendChild(button);
+                if (i==0){
+                    button.classList.add("active_chat");
+                    enter_chat_room(id)
+                }
+
+
+
+            }
+        }
+    };
+    xhttp.open("GET", "http://127.0.0.1:5000/search_rooms_else", true);
+    xhttp.send()
+
+}
+
+
+
+function suggest_account(){
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function () {
+        if (this.readyState == 4 && this.status == 200) {
+            alert(this.response);
+            autocomplete(document.getElementById("ncr_users_list"), this.response)
+
+
+
+
+
+
+
+        };
+
+    };
+    xhttp.open("GET", "http://127.0.0.1:5000/suggest_account", true);
+    xhttp.send()
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+function autocomplete(inp, arr) {
+    alert(arr);
+  /*the autocomplete function takes two arguments,
+  the text field element and an array of possible autocompleted values:*/
+  var currentFocus;
+  /*execute a function when someone writes in the text field:*/
+  inp.addEventListener("input", function(e) {
+      var a, b, i, val = this.value;
+      /*close any already open lists of autocompleted values*/
+      closeAllLists();
+      if (!val) { return false;}
+      currentFocus = -1;
+      /*create a DIV element that will contain the items (values):*/
+      a = document.createElement("DIV");
+      a.setAttribute("id", this.id + "autocomplete-list");
+      a.setAttribute("class", "autocomplete-items");
+      /*append the DIV element as a child of the autocomplete container:*/
+      this.parentNode.appendChild(a);
+      /*for each item in the array...*/
+      for (i = 0; i < arr.length; i++) {
+        /*check if the item starts with the same letters as the text field value:*/
+        if (arr[i].substr(0, val.length).toUpperCase() == val.toUpperCase()) {
+          /*create a DIV element for each matching element:*/
+          b = document.createElement("DIV");
+          /*make the matching letters bold:*/
+          b.innerHTML = "<strong>" + arr[i].substr(0, val.length) + "</strong>";
+          b.innerHTML += arr[i].substr(val.length);
+          /*insert a input field that will hold the current array item's value:*/
+          b.innerHTML += "<input type='hidden' value='" + arr[i] + "'>";
+          /*execute a function when someone clicks on the item value (DIV element):*/
+          b.addEventListener("click", function(e) {
+              /*insert the value for the autocomplete text field:*/
+              inp.value = this.getElementsByTagName("input")[0].value;
+              /*close the list of autocompleted values,
+              (or any other open lists of autocompleted values:*/
+              closeAllLists();
+          });
+          a.appendChild(b);
+        }
+      }
+  });
+  /*execute a function presses a key on the keyboard:*/
+  inp.addEventListener("keydown", function(e) {
+      var x = document.getElementById(this.id + "autocomplete-list");
+      if (x) x = x.getElementsByTagName("div");
+      if (e.keyCode == 40) {
+        /*If the arrow DOWN key is pressed,
+        increase the currentFocus variable:*/
+        currentFocus++;
+        /*and and make the current item more visible:*/
+        addActive(x);
+      } else if (e.keyCode == 38) { //up
+        /*If the arrow UP key is pressed,
+        decrease the currentFocus variable:*/
+        currentFocus--;
+        /*and and make the current item more visible:*/
+        addActive(x);
+      } else if (e.keyCode == 13) {
+        /*If the ENTER key is pressed, prevent the form from being submitted,*/
+        e.preventDefault();
+        if (currentFocus > -1) {
+          /*and simulate a click on the "active" item:*/
+          if (x) x[currentFocus].click();
+        }
+      }
+  });
+  function addActive(x) {
+    /*a function to classify an item as "active":*/
+    if (!x) return false;
+    /*start by removing the "active" class on all items:*/
+    removeActive(x);
+    if (currentFocus >= x.length) currentFocus = 0;
+    if (currentFocus < 0) currentFocus = (x.length - 1);
+    /*add class "autocomplete-active":*/
+    x[currentFocus].classList.add("autocomplete-active");
+  }
+  function removeActive(x) {
+    /*a function to remove the "active" class from all autocomplete items:*/
+    for (var i = 0; i < x.length; i++) {
+      x[i].classList.remove("autocomplete-active");
+    }
+  }
+  function closeAllLists(elmnt) {
+    /*close all autocomplete lists in the document,
+    except the one passed as an argument:*/
+    var x = document.getElementsByClassName("autocomplete-items");
+    for (var i = 0; i < x.length; i++) {
+      if (elmnt != x[i] && elmnt != inp) {
+        x[i].parentNode.removeChild(x[i]);
+      }
+    }
+  }
+  /*execute a function when someone clicks in the document:*/
+  document.addEventListener("click", function (e) {
+      closeAllLists(e.target);
+  });
+}
+
+
+function show_new_msgs(conv){
+    var i;
+    var len = conv.length;
+    for (i = 0; i < len; i++){
+        var date = conv[i][3] + " " + conv[i][4];
+        var msg = conv[i][1];
+        var uuid = conv[i][5];
+        var path = conv[i][6];
+        add_incoming_msg(msg, date, path, uuid)
+    }
+}
+
+
+
+
+
+
+
+
+//setInterval(function() {
+//    $.ajax({
+//        type: "get",
+//        url: "http://127.0.0.1:5000/search_messages?name=" + document.getElementById("text-center").innerText,
+//        success:function(data)
+//        {
+//           alert(data)
+//        }
+//    });
+//}, 5000); //20000 milliseconds = 20 seconds
+
+
+function fetchdata(){
+    var msg_history = document.getElementById("msg_history");
+    var last_id = msg_history.lastChild.id;
+ $.ajax({
+  url: "http://127.0.0.1:5000/search_messages?name=" + document.getElementById("text-center").innerText + "&id=" + last_id,
+  type: 'get',
+  success: function(response){
+   // Perform operation on the return value
+      if (response != "no messages"){
+          var convs = JSON.parse(response);
+          show_new_msgs(convs)
+      }
+  }
+ });
+}
+
+$(document).ready(function(){
+ setInterval(fetchdata,2000);
+});
+
+
+
+function show_popup(id){
+    alert("in");
+    var popup = document.getElementById(id);
+    popup.classList.toggle("show");
+}
+
+
+function open_cr_propreties(event) {
+
+}
+
+function msg_attributes(event){
+    if (event.button == 1){
+
+    }
+
+}
+
+
+</script>
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+

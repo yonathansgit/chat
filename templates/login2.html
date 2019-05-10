@@ -1,0 +1,78 @@
+<html>
+<script>
+	alert("This website is using cookies") 
+</script>
+<style>
+
+div.title {
+	
+	color: DarkSlateGray;
+	font-family: impact;
+	font-size: 500%;
+	text-align: center;
+	vertical-align: middle;
+	text-decoration: underline;
+}
+
+div.loginForm{
+	color: DarkSlateGray;
+	font-family: impact;
+	font-size: 380%;
+	text-align: center;
+	margin-top: 150px;
+}
+
+div.name{
+	color: DarkSlateGray;
+	font-family: impact;
+	font-size: 150%;
+	text-align: center;
+	margin-top: 20px;
+}
+
+div.password{
+	color: DarkSlateGray;
+	font-family: impact;
+	font-size: 150%;
+	text-align: center;
+	margin-top: 10px;
+}
+
+div.submit{
+	text-align: center;
+	margin-top: 5px;
+}
+
+p{
+	color: DarkSlateGray;
+	text-align: center;
+	margin-top: 2px;
+}
+
+
+body{
+	background-color: DeepSkyBlue;
+	height: 50vh;
+}
+
+</style>
+<body>
+	<div class = "title">Welcome to ChatterLine</div>
+	<div class = "loginForm">Login</div>
+
+	<form method="POST" action="http://127.0.0.1:5000/">
+		<div class = "name">username:
+			<input type= "text" name = "name" size = "20" style = "font-size: 16" value = "username or email"></div>
+		<div class = "password">password:
+			<input type = "password" name = "password" size = "20" style = "font-size: 16" value = "password"></div>
+		<div class = "submit">
+			<input type = "submit" size = "20" style = "font-size: 20" value = "connect" color: SeaShell ></div>
+	</form>
+	<div>
+		<p>
+			Not registered ? <a href = "http://127.0.0.1:5000/register">Register now !</a></p>
+	</div>
+
+</body>
+
+</html>
